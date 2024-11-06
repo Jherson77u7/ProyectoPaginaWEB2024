@@ -74,8 +74,18 @@ nav ul li a {
     padding: 2em;  
     background-color: #000000;
     text-align: center;  
-}  
+} 
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #fff;
+} 
 h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+h1 {
     font-size: 1.5em;
     margin-bottom: 5px;
     color: #fff;
@@ -99,6 +109,14 @@ a {
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: bold;
+}
+.stat h2 {
+    color: #d9534f;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+.stat p {
+    color: #666;
 }
 
 /* Estilos para la sección de cartas */  
@@ -150,7 +168,7 @@ a {
     display: grid;  
     grid-template-columns: repeat(4, 1fr);  
     grid-template-rows: repeat(2, 200px);  
-    gap: 10px;  
+    gap: 3px;  
     padding: 1em;  
 }  
 
